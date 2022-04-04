@@ -8,4 +8,8 @@ public class C03 {
         sayi++;
         System.out.println("sayinin C03 deki degeri:" + sayi);
     }
+
+
+
 }
+
