@@ -15,6 +15,7 @@ public class Child extends Parent{
     // constructor call vardir
     // yani parent class'in parametresiz constructor call
     public static void main(String[] args) {
+
         Child child = new Child();
 
     }
