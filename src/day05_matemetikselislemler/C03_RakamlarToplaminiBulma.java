@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class C03_RakamlarToplaminiBulma {
     public static void main(String[] args) {
 
+        // kullanicidan aldiginiz 4 basanmakli bir sayinin basamaklar toplamini bulunuz
+
         Scanner scan= new Scanner(System.in);
         System.out.println("lutfen 4 basamakli bir tam sayi giriniz");
         int sayi=scan.nextInt();
