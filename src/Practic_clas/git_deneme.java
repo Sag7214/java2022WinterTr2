@@ -1,6 +1,6 @@
 package Practic_clas;
 
-public class deneme {
+public class git_deneme {
     public static void main(String[] args) {
 
         int i = 0;
