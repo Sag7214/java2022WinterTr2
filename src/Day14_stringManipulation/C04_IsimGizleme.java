@@ -3,7 +3,7 @@ package Day14_stringManipulation;
 public class C04_IsimGizleme {
     public static void main(String[] args) {
 
-        // soru 7) kullanicidan ismini , soyismini ve  kredi karti bilgisini isteyin ve asagidaki
+        // soru 7) kullanicidan ismini , soyismini ve  kredi  karti  bilgisini isteyin ve asagidaki
         // isim- soyisim:M****  B*****
         // kart no : ***** ****** ****** 1234
 

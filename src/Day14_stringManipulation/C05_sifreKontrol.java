@@ -5,13 +5,13 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
 public class C05_sifreKontrol {
     public static void main(String[] args) {
 
-        // soru6) kullanicidan bir sifre girmesini isteyin
+        // soru6) kullanicidan bir sifre girmesini isteyin.
         //asagidaki sartlari sagliyorsa "sifre basari ile tanimlandi"
-        // sartlari saglamazsa Islem basarisiz , Lutfen yeni bir sifre girin" yazdirin
-        // - Ilk harf buyuk olmali
-        // - Son harf kucuk olmali
-        // - Sifre bosliuk icermemeli
-        // - Sifre uzunlugu en az 8 karakter olmali
+        // sartlari saglamazsa Islem basarisiz , Lutfen yeni bir sifre girin" yazdirin.
+        // - Ilk harf buyuk olmali.
+        // - Son harf kucuk olmali.
+        // - Sifre bosliuk icermemeli.
+        // - Sifre uzunlugu en az 8 karakter olmali.
 
         String sifre = "Asdf12345a";
 
@@ -23,6 +23,7 @@ public class C05_sifreKontrol {
             System.out.println("Sifrenizin ilk harfi Buyuk Harf olmali ");
 
         }
+
         boolean sonHarf = false;
         if (sifre.charAt(sifre.length() - 1) >= 'a' && sifre.charAt(sifre.length() - 1) <= 'z') {
             sonHarf = true;
@@ -49,8 +50,6 @@ public class C05_sifreKontrol {
         if (ilkHarf && sonHarf && bosluk && uzunluk){
             System.out.println("sifreniz basarili bir sekilde kaydedildi");
         }
-
-
 
     }
     }

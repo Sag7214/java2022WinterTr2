@@ -9,7 +9,7 @@ public class C03_Cte_Rte {
         // projede hic bir kod calismaz....
 
         String str = "javada hersey zamanla oturur";
-        System.out.println(str.substring(100));  // -4972 hatasini verir  (burada ise calistirinca anlar)
+        System.out.println(str.substring(5000));  // -4972 hatasini verir  (burada ise calistirinca anlar)
 
 
     }

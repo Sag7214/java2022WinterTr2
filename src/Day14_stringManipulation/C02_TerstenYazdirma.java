@@ -5,8 +5,8 @@ import java.util.Locale;
 public class C02_TerstenYazdirma {
     public static void main(String[] args) {
 
-        // soru5) kullanicidan 4 harfli bir kelime isteyin
-        // ve girilen kelimeyi tersten yazdirin
+        // soru5 kullanicidan 4 harfli  bir kelime isteyin.
+        // ve girilen kelimeyi  tersten yazdirin.
 
         String input="AHme";
 
