@@ -9,9 +9,9 @@ public class C01_tolowerCase_toUpperCase {
         // biz string metod larini arka arkaya kullnabiliriz
         // mesela ikinci kelimenin ilk harfini kucuk olarak yazdiralim
 
-        str.charAt(5);   // boyle yazdigimizda sonuc artik String degil char olacaktir
+        str.charAt(5);   // boyle yazdigimizda sonuc artik String degil char olacaktir.
         // dolayisiyla String de yapmak istedigimiz tum degisiklikleri
-        // once yapip sonra charAt() metodunu kullanmaliyiz
+        // once yapip sonra charAt() metodunu kullanmaliyiz.
 
         System.out.println(str.toLowerCase().charAt(5));
 

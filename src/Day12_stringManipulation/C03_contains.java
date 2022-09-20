@@ -6,7 +6,7 @@ public class C03_contains {
         // Soru 1) Kullanicidan email adresini girmesini isteyin,
         // mail @gmail.com icermiyorsa “lutfen gmail adresi giriniz”,
         // @gmail.com ile bitiyorsa “Email adresiniz kaydedildi “,
-        // @gmail.com ile bitmiyorsa "lutfen yazimi kontol edin" yazdirin
+        // @gmail.com ile bitmiyorsa "lutfen yazimi kontol edin" yazdirin.
         // mehmet@gmail.com.tr
 
         String email="mulkiyeayboy@gmail.com"; // com.tr yazimi kontrol edin olur // @tmail mail adresi girin olur

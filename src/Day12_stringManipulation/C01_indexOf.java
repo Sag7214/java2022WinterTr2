@@ -10,7 +10,8 @@ public class C01_indexOf {
         // girilen cumlede 1 den fazla kullanilmis
 
         String cumle= "Java ogren , yeni program ile yeni bir sayfa ac";
-        String kelime= "adil";   // girilrn kelime cumlede kullanilmamis // yeni olsa girilen kelime birden fazla kullanilmis
+        String kelime= "adil";   // adil cumlede yok girilen kelime cumlede kullanilmamis
+                                // yeni olsa girilen kelime birden fazla kullanilmis
 
         int ilkKullanim=cumle.indexOf(kelime); // -1 veya index
         int ikinciKullanim= cumle.indexOf(kelime, ilkKullanim+1);

@@ -1,6 +1,6 @@
 package Day11_stringManipulation;
 
-public class C02_lastIndexOf {
+public class C05_lastIndexOf {
     public static void main(String[] args) {
 
         // kullanicidan bir cumle veya bir kelime isteyin,

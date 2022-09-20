@@ -8,7 +8,7 @@ public class C01_IfElseStatements {
         // girilen bir karekterin , harf olup olmadigini bulalim
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Lutefen bir karakter girimiz");
+        System.out.println("Lutfen bir karakter giriniz");
         char karakter=scan.next().charAt(0);
 
         if ((karakter>='A' && karakter<='Z')  || ( karakter>='a' && karakter<='z')){

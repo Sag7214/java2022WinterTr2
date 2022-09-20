@@ -11,7 +11,8 @@ public class C04_charAt {
 
         String str= "Java Cok Guzel";
         System.out.println(str.charAt(0));
-         // eger g yi yazdirmak istiyorsam
+         // eger g 'yi yazdirmak istiyorsam
+
         System.out.println(str.charAt(9));
         // va yazdiralim
         System.out.println(""+str.charAt(2)+str.charAt(3)); //va
@@ -23,6 +24,7 @@ public class C04_charAt {
         // son harfi yazdir
 // string de 14 harf var onun icin 0 dan basladigi icin son harfin index i 14-1 = 13 tur
         System.out.println(str.charAt(14-1)); // uzunluk -1
+        System.out.println(str.charAt(12)); // uzunluk -1
 
         // eger  uzunlugu index olarak girersek
        // System.out.println(str.charAt(14));  // hata verir 14 uzunluk olmadigi icin

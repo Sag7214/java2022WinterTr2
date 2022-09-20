@@ -5,10 +5,12 @@ import java.util.Scanner;
 public class C02_SwitchMevsimler {
     public static void main(String[] args) {
 
+
+        // kullanicidan kacinci ay oldugunu aldirip kacinci mevsim oldugunu yazdiran bir switch olusturun
+
         Scanner scan = new Scanner(System.in);
         System.out.println("lutfen kacinci ay oldugunu giriniz");
         int ayNo = scan.nextInt();
-        // kullanicidan kacinci ay oldugunu alip hangi mevsim oldugunu yazdiran bir  switch olusturun
 
         switch (ayNo) {
             case 12 :

@@ -9,6 +9,7 @@ public class C05_Ternary {
         // bir ternary olusturalim
 
         int sayi= 150;
+
         // ternary bize sonuc getirdiginden ya sonucu direk yazdirmaliyiz
         // veya bir degisken atamaliyiz
         // eger sonuclar farkli data turlerinde ise

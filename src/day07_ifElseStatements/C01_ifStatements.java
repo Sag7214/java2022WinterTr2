@@ -5,7 +5,7 @@ public class C01_ifStatements {
         int a = 2;
         int b = 3;
 
-        if (a== b) {
+        if (a == b) {
             System.out.println("verilen sayilar esit");
         }
         if (a > 100) {

@@ -59,7 +59,7 @@ public class C1_SwitchCase {
                 //  switch icine yazilan variable nin degerine gore ilgili  case yi bulur
                 // ve   break gorene kadar kodu calistiri
                 // eger break yoksa ilgli case den asgi dogrru hepsini yazdirir
-                // if else deki gibi geriye kalan durumlri tammen kapsaycak bir satir daha ekleyebiliriz
+                // if else deki gibi geriye kalan durumlri tamamen kapsaycak bir satir daha ekleyebiliriz
 
 
         }

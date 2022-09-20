@@ -18,8 +18,6 @@ public class C02_ifStatements {
 
 
 
-
-
         // 24. satirdaki kod 15. satirdaki if dogru olsa da calisir false olsa da calisir
         System.out.println(" 2. satirda calisti");
 

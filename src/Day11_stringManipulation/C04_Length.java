@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class C04_Length {
     public static void main(String[] args) {
 
-        // kullanicidan ismini alip bas harfini ve son harfini buyuk harflerle yazdirin
+        // kullanicidan ismini alip bas harfini ve son harfini buyuk harflerle yazdirin.
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Lutfen isminizi giriniz");
@@ -14,7 +14,7 @@ public class C04_Length {
 
         System.out.println(" ilk harf :" + isim.toUpperCase(Locale.forLanguageTag("tr")).charAt(0));
         System.out.println("son harf : " + isim.toUpperCase(Locale.forLanguageTag("tr")).charAt(isim.length() - 1));
-        // son harfin index sini verecek
+        // son harfin index' sini verecek
 
 
     } String str1 = "";

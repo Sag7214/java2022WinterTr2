@@ -12,7 +12,7 @@ public class C05_replace {
 
         // str de kalici degisiklik yapalim
         // bugun yerine yarin
-        // ogrendik yerine ogrenecegiz yapalim  ama kalici olarak yapilacak
+        // ogrendik yerine ogrenecegiz yapalim  ama kalici olarak yapilacak.
         str=str.replace("Bugun","yarin");
         str=str.replace("ogrendik","ogrenecegiz");
         System.out.println("kalici degisiklikten sonra : " + str);

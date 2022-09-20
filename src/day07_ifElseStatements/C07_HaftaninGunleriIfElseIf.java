@@ -14,7 +14,6 @@ public class C07_HaftaninGunleriIfElseIf {
             System.out.println("girdiginiz gun hafta sonu");
         }
 
-        //
         else if (gunIsmi.equals("pazartesi") || gunIsmi.equals("sali") ||
                 gunIsmi.equals("carsamba") || gunIsmi.equals("persembe") || gunIsmi.equals("cuma")) {
             System.out.println("girdiginiz gun hafta ici");

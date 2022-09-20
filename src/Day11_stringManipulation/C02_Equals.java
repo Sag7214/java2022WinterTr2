@@ -5,6 +5,7 @@ import java.util.Locale;
 public class C02_Equals {
     public static void main(String[] args) {
 
+
         String str1= "Ali Can";
         String str2= "Ali " + " Can";
 
@@ -27,6 +28,9 @@ public class C02_Equals {
 
         System.out.println(str5.equals(str6)); // false
         System.out.println(str5.toUpperCase().equals(str6));  //true
+
+        // String te == her zaman dogru sonuc vermez
+        // onun icin equals method unu kullanmayi tercih ederiz(yukarda varmis):)
 
 
     }

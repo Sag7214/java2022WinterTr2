@@ -6,6 +6,7 @@ public class C03_Concate {
         // concatenation yapmak icin 2 ihtimal var
         // istersel daha once yaptigimiz gibi + operatorunu kullanabiliriz
         // veya string clasindan gelen concat metodunu kullanabiliriz  farki yok
+
         String str1= "java" ;
         String str2="candir";
         // java candir yazdiralim

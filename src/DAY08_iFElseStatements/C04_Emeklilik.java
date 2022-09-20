@@ -6,10 +6,13 @@ import java.util.Scanner;
 public class C04_Emeklilik {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("lutfen cinsiyetinizi yaziniz" + "\n kadin icin K \nerkek icin E harfini giriniz");
+// eger calisan kadinsa 60 yasindan buyuk oldugunda
+        // erkekse 65 yasindan buyukse emekli olabilir
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("lutfen cinsiyetinizi yaziniz" + "\n kadin icin K \nerkek icin E \n harfini giriniz");
         char cinsiyet = scan.next().toUpperCase().charAt(0);
+
         System.out.println("lutfen yasinizi giriniz ");
         double yas = scan.nextDouble();
 
@@ -19,9 +22,9 @@ public class C04_Emeklilik {
 
             if (yas < 0 || yas > 120) ;
             {
-
                 System.out.println("lutfen girdiginiz yas degerini kontrol edin");
             }
+
         } else if (yas < 60) {
             System.out.println("emekli olamazsin \ndaha" + (60 - yas) + "yil calisman gerekir ");
         } else if (yas > 120) {

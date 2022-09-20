@@ -7,7 +7,7 @@ public class C02_lastIndexOf {
         // kelimenin cumlede kullanimina bakarak
         // girilen cumlede kullanilmamis
         // girien cumlede 1 kere kullanilmis
-        // girilen cumlede 1 den fazla kullanilmis
+        // girilen cumlede 1 den fazla kullanilmis.
 
         String cumle= "Java ogren , yeni program ile yeni bir sayfa ac";
         String kelime= "yeni";

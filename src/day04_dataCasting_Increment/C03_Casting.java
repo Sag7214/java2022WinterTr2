@@ -30,9 +30,9 @@ public class C03_Casting {
         sayi1 = 4895;
         double sayi3=10;
 
-
+         // sol taraf int sag taraf double olacagi icin kucuk buyuge esitlenemez sigmaz yani
         // sayi1=sayi1/sayi3;   // jaava iki farlkli data sayi data turunu koydugumuzda autoWidening yapar
-        // bu islemi dusunursek sayi1/sayi3 = islemin sonucunu double kabul eder
+        // bu islemi dusunursek sayi1/sayi3 => islemin sonucunu double kabul eder
 
         System.out.println(sayi1/sayi3);  //498.5
         System.out.println(sayi3/sayi1);  //0.0020429009193054137

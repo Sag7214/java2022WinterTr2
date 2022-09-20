@@ -12,6 +12,7 @@ public class C04_HaftaIciHaftaSonu {
         // yani pazar , PAZAR , Pazar bunlar hep farkli kelimelerdir
 
         // bu durumda String method larindan yardim aliriz
+        // string ifadelerd == kullanilmaz , eguals lullanilir
 
         Scanner scan=new Scanner(System.in);
         System.out.println("lutfen gun ismini giriniz");

@@ -2,6 +2,7 @@ package day05_matemetikselislemler;
 
 public class C02_PreIncrementPostIncrement {
     public static void main(String[] args) {
+
         int sayi1=10;
         int sayi2=20;
         int sayi3=30;

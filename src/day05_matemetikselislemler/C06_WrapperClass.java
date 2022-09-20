@@ -11,6 +11,6 @@ public class C06_WrapperClass {
 
         // integer.valueOf(str1) metodu sadece sayisal deger iceren String lerde kullanilabilir
         // bir tane bile sayi disinda karakter olursa java hata verir
-
+        // str="12345a" gibi
     }
 }

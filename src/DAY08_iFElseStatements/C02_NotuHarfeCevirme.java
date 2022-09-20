@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class C02_NotuHarfeCevirme {
     public static void main(String[] args) {
+// kullanicidan 100uzerinden notunu isteyin
+        // noyu harf sistemine cevirip yazdirin
+        // 50 den kucukse "D",
+        // =50 < 60 arasi "C",
+        // =60<80  arasi "B",
+        // =80 ni  uzerinde ise "A"
+
         Scanner scan = new Scanner(System.in);
         System.out.println("lutfen notunuzu giriniz");
         double notSayi = scan.nextDouble();

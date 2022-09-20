@@ -9,7 +9,7 @@ public class C03_RakamlarToplaminiBulma {
         // kullanicidan aldiginiz 4 basanmakli bir sayinin basamaklar toplamini bulunuz
 
         Scanner scan= new Scanner(System.in);
-        System.out.println("lutfen 4 basamakli bir tam sayi giriniz");
+        System.out.println("lutfen 4 basamakli bir tamsayi giriniz");
         int sayi=scan.nextInt();
 
         int rakam=0;
@@ -35,6 +35,7 @@ public class C03_RakamlarToplaminiBulma {
         // yani rakam ,  rakamlar toplami, sayi  islemini
 
         System.out.println("girdiginiz sayinin rakamlar toplami" +rakamlarToplami);
+
 
 
 

@@ -10,8 +10,8 @@ public class C02_substring {
         String str="1-48 of 7000 results for \"nutella\"";
 
         int ilkSpace=str.indexOf(" ");  // 4
-        int ikinciSpace=str.indexOf(" " ,ilkSpace+1); //7
-        int ucuncuSpace=str.indexOf(" ",ikinciSpace+1);//12
+        int ikinciSpace=str.indexOf(" " ,ilkSpace+1);   //7
+        int ucuncuSpace=str.indexOf(" ",ikinciSpace+1);  //12
 
          String aramaSonucSayisiStr= str.substring(ikinciSpace+1,ucuncuSpace); //7000 string
 
