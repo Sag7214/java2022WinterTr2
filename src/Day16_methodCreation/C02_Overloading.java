@@ -8,8 +8,8 @@ public class C02_Overloading {
         System.out.println(str.indexOf("a",5)); // 13
         System.out.println(str.indexOf('a',5));
 
-        // bir class'da ayni isimde birden fazla method olmasina overloading denilir
-        // ya parametre sayisi farkli olmali
-        // veya parametre sayisi ayni ise argumentlerin data turleri farkli olmali
+             // bir class'da ayni isimde birden fazla method olmasina overloading denilir.
+            // ya parametre sayisi farkli olmali.
+           // veya parametre sayisi ayni ise argumentlerin data turleri farkli olmali.
     }
 }

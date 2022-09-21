@@ -7,7 +7,7 @@ public class C08_Palindrome extends C08_forLoob {
         // Kullanicinin girdigi String’in palindrome olup olmadigini kontrol eden
         // bir method olusturun.
 
-        String input= "Mada";
+        String input= "Madam";
         palindromeKontrolEt(input);
     }
     private static void palindromeKontrolEt(String input) {

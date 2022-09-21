@@ -7,7 +7,7 @@ public class C02_calismayanLoobBody {
             System.out.println(i);
 
         }
-        System.out.println("baslangic degeri bitis kosulunu saglamadigindan\n"+
+        System.out.println("baslangic degeri\n bitis kosulunu saglamadigindan\n"+
                 "loop bady si hic calismadan sona erdi");
     }
 }

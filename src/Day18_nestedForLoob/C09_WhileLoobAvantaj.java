@@ -6,9 +6,9 @@ public class C09_WhileLoobAvantaj {
     public static void main(String[] args) {
 
 
-        // kullanicidan istedigi kadar sayi girmesini isteyin
-        // kullanicinin girdigi sayilarin toplami 500'u gecerse
-        // artik yeter cok sayi girdin, toplam.... oldu yazsin
+        // kullanicidan istedigi kadar sayi girmesini isteyin.
+        // kullanicinin girdigi sayilarin toplami 500'u gecerse,
+        // artik yeter cok sayi girdin, toplam.... oldu yazsin.
 
 
         Scanner scan = new Scanner(System.in);

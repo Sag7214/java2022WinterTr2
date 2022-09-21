@@ -6,8 +6,8 @@ public class C01_SonsuzDongu {
         for (int i =0; i>=0;i++){
             System.out.print(i);
 
-            // bu kodu calistirisak sonsuz donguye girer
-            // ve ram dolana ve bilgisayari kitleyene kadar calisir
+            // bu kodu calistirisak sonsuz donguye girer.
+            // ve ram dolana ve bilgisayari kitleyene kadar calisir.
         }
     }
 }

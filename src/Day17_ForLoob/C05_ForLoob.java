@@ -6,7 +6,7 @@ public class C05_ForLoob {
         // Soru 4) Kullanicidan 100’den kucuk bir tamsayi isteyin.
         // 1’den baslayarak girilen sayiya kadar 3’un kati olan sayilari yazdirin.
 
-        int sayi = 57;
+        int sayi = 60;
         for (int i = 1; i <= sayi; i++) {
             if (i % 3 == 0) {
                 System.out.print(i + " ");

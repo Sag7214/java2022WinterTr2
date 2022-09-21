@@ -22,7 +22,6 @@ public class H_sayiBulmaca {
         int tahmin=0;
         int sayac=1;
 
-
         while (sayi != tahmin) {
             System.out.println("Lutfen bir sayi giriniz");
 

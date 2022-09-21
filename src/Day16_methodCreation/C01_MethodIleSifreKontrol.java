@@ -3,14 +3,14 @@ package Day16_methodCreation;
 public class C01_MethodIleSifreKontrol {
     public static void main(String[] args) {
 
-        // soru6) kullanicidan bir sifre girmesini isteyin
-        //asagidaki sartlari sagliyorsa "sifre basari ile tanimlandi"
-        // sartlari saglamazsa Islem basarisiz , Lutfen yeni bir sifre girin" yazdirin
-        // - Ilk harf buyuk olmali
-        // - Son harf kucuk olmali
-        // - Sifre bosliuk icermemeli
-        // - Sifre uzunlugu en az 8 karakter olmali
-        // bu 4 kontrolu method ile yapin
+        // soru6) kullanicidan bir sifre girmesini isteyin.
+        //asagidaki sartlari sagliyorsa "sifre basari ile tanimlandi".
+        // sartlari saglamazsa Islem basarisiz , Lutfen yeni bir sifre girin" yazdirin.
+        // - Ilk harf buyuk olmali.
+        // - Son harf kucuk olmali.
+        // - Sifre bosliuk icermemeli.
+        // - Sifre uzunlugu en az 8 karakter olmali.
+        // bu 4 kontrolu method ile yapin.
 
         String sifre="Abc123abn";
         boolean ilkHarfKontrol= ilkHarfKontrolEt(sifre);

@@ -2,10 +2,11 @@ package Day15_methodCreation;
 
 public class C04 {
 
-// main method olmadan da bir clas olusturulabilir
-    // ancak bu clas tek basina calismaz
-    //sadece depo goervi gorur
-    //baska claslardan kullanilabilecek method veya variable leri barindirir
+// main method olmadan da bir clas olusturulabilir.
+    // ancak bu clas tek basina calismaz.
+    //sadece depo gorevi gorur.
+    //baska claslardan kullanilabilecek method veya variable leri barindirir.
+
     public static void dortHarfiTersineCevir(String kelime) {
         String tersKelime = kelime.substring(3) +
                 kelime.substring(2, 3) +

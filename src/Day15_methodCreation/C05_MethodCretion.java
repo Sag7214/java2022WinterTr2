@@ -5,10 +5,11 @@ public class C05_MethodCretion {
 
         String str="Ali";
 
-C04.ucHarfiTersineCevir(str);
+        C04.ucHarfiTersineCevir(str);
 
-str="Java";
-C04.dortHarfiTersineCevir(str);
+           str="Java";
+             C04.dortHarfiTersineCevir(str);
 
     }
+
 }

@@ -5,8 +5,8 @@ public class C06_ForLoob {
 
         // verilen iki harf ve aralarindaki harfleri yazdiran bir kod yaziniz
 
-        char ilkHarf='m';
-        char sonHarf='t';
+        char ilkHarf='a';
+        char sonHarf='z';
 
         for (char i = ilkHarf; i <=sonHarf ; i++) {
             System.out.print(i + " ");

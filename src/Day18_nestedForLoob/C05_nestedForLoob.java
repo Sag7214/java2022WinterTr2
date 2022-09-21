@@ -10,7 +10,7 @@ public class C05_nestedForLoob {
        A B C D
        A B C D E
        A B C D E F
-       şeklini yazdırınız.
+       şeklini yazdırınız
        */
 
         char input ='L';

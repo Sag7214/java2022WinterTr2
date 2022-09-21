@@ -11,8 +11,6 @@ public class C08_ForLoobVsWhileLoob {
         // girdigi tum sayilarin toplamini yazdirin
 
         Scanner scan = new Scanner(System.in);
-
-
         int sayi = 0;
         int toplam = 0;
         /*
@@ -29,11 +27,10 @@ public class C08_ForLoobVsWhileLoob {
 
         }
 
-
-
         System.out.println(toplam);
-        // while ile yaparsak
+
  */
+        //// while ile yaparsak
         sayi=1;
         toplam=0;
 

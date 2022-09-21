@@ -9,7 +9,7 @@ public class C09_MethodCreation {
 
         // eger bir methodtan bir is yapmasini ve
         // yaptigi islemi bize getirmesini isterseniz
-        // return type vaid degil , bize getirecegi sonucun data turunde olmalidir.
+        // return type void degil , bize getirecegi sonucun data turunde olmalidir.
 
         String gizlenmisIsimSoyisim = isimSoyisimGizle(isim,soyisim);
 
@@ -20,8 +20,6 @@ public class C09_MethodCreation {
 
         String gizlenmisKKNo = krediKartiGizle(kKNo);
         System.out.println(gizlenmisKKNo);
-
-
 
     }
 
@@ -38,13 +36,13 @@ public class C09_MethodCreation {
                 soyisim.substring(1).replaceAll("\\S","*");
 
         // method olusturmada 3. adim
-        // method calisinca sadece birsey mi yazdiracak
-        // yoksa bize bir data mi dondureecek buna kara vermektir
+        // method calisinca sadece birsey mi yazdiracak.
+        // yoksa bize bir data mi dondurecek buna kara vermektir.
         // bu soruda gizlenmis ism soyisim dondurmesi istendiginden
         // return type yi  void degil String sectik ve
-        // methodun sonunna  return edilecek datayi yazdik
-
+        // methodun sonunna  return edilecek datayi yazdik.
 
         return yeniIsim+" "+yeniSoyIsim;
+
     }
 }

@@ -8,19 +8,19 @@ public class C01_MethodCreation {
         str.substring(0,4);
         // bir program yaparken daha kisa ve anlasilabilir olmasi icin
         // surekli kullanabillecegimiz kod bloklarini
-        // hazir olarak bir yere koyar ve ihtiyacimiz oldukca kullaniriz
+        // hazir olarak bir yere koyar ve ihtiyacimiz oldukca kullaniriz.
 
         // method lar robotlara benzer
-        // method olusturmak bazen o methodun yapacagi isi yapmaktan zor olabilir
-        // bir islemi sadec bir kere yapacaksak method kullanmamiza gerek olmayabilir
+        // method olusturmak bazen o methodun yapacagi isi yapmaktan zor olabilir.
+        // bir islemi sadec bir kere yapacaksak method kullanmamiza gerek olmayabilir.
         // ancak  cok kullanacagimiz islemler icin
         // her seferinde yeniden ayni kodlari yazmak yerine
-        // bu islemi hazir olarak yapan hazir bir method olusturmak cok daha pratiktir
+        // bu islemi hazir olarak yapan hazir bir method olusturmak cok daha pratiktir.
 
         // bazen bir clasin icerisinde cok uuzun kodlar yazarsak
-        // tum clasin anlasilmasi zorlasabilir
+        // tum clasin anlasilmasi zorlasabilir.
         // bunun yerine kodun belli kisimlarini ayri methodlar olarak olusturup
-        // main method icerisinden istedigimiz zaman alip kullanabiliriz
+        // main method icerisinden istedigimiz zaman alip kullanabiliriz.
 
     }
 }
