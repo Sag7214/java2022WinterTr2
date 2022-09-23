@@ -2,14 +2,14 @@ package Day19_doWhileLoob;
 
 public class C05_Scope {
 
-// 1- bir method icinde olusturulan variable ller sadece olusturulduklari method ta kullanilabilir
-    // baska method larda kullanilamazlar
-    // 2- tum method larin kullnmasini istedigimiz variable leri clas level da olusturmamiz gerekir
-    // clas leevel da olusturdugumuz variable yi
-    // -----static yaparsak tum method lar kullanabilir
-    // ---- static olmazsa (instance( o zaman sadec statixc olmayan method lar kullanilabilir
-    // 3- loob icinde olusturulan variable ler loob icinde kullanilabilir
-    // ama loob un disinda kullanilamazlar
+// 1- bir method icinde olusturulan variable 'ler sadece olusturulduklari method ta kullanilabilir
+    // baska methodlarda kullanilamazlar.
+    // 2- tum methodlarin kullanmasini istedigimiz variable' leri clas level da olusturmamiz gerekir.
+    // clas leevel da olusturdugumuz variable' yi
+    // --static yaparsak tum method lar kullanabilir.
+    // --static olmazsa (instance( o zaman sadec static olmayan methodlar kullanilabilir.
+    // 3- loob icinde olusturulan variable 'ler loob icinde kullanilabilir.
+    // ama loob 'un disinda kullanilamazlar.
 
     static String kurs="Java";
     int level = 10;
@@ -32,8 +32,8 @@ public class C05_Scope {
         //loobSayi=30,
 
         int sayi2;
-        sayi4++;  // clas seviyesinde olusturup deger atanmadigim sayi 4 e java itiraz etmiyor
-       // sayi2++;   // ama main method icnde olusturup deger atamadigim sayiyi atrtirmmama java izin vermiyor
+        sayi4++;  // clas seviyesinde olusturup deger atanmadigim sayi 4 e java itiraz etmiyor.
+       // sayi2++;   // ama main method icinde olusturup deger atamadigim sayiyi artirmama java izin vermiyor.
     }
 
              public static void method1(){

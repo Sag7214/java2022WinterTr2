@@ -7,15 +7,16 @@ public class C01_Sort {
 
         String arr[]= {" S","M","A","T"};
 
-        System.out.println(Arrays.toString(arr));   // [ S, M, A, T]
+        System.out.println(Arrays.toString(arr)); // [ S, M, A, T]
 
 
         Arrays.sort(arr);
 
-        System.out.println(Arrays.toString(arr));   // [ S, A, M, T]
-        //  // Java da bu siralamaya Natural Order denir
+        System.out.println(Arrays.toString(arr));  // [ S, A, M, T]
+
+        //  // Java da bu siralamaya Natural Order denir.
         //    // sayi olursa kucukten buyuge
-        //    // metin olursa alfabetik siralamaya gore
+        //    // metin olursa alfabetik siralamaya gore yapar
 
 
 

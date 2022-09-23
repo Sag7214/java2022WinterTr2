@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class C03_arrays {
     public static void main(String[] args) {
 
-        int arr[];   // // deger atamasi yapmadik . Java kabul etti ancak kullanmamiza izin vermez
+        int arr[];   // deger atamasi yapmadik ama Java kabul etti ancak kullanmamiza izin vermez.
 
         arr= new int[6];
 
@@ -13,9 +13,9 @@ public class C03_arrays {
         System.out.println(arr.length);     //  6
                                                // string teki length() , bunda yok
 
-        // arraydeki her bir elemani index degeri kadar artiralim
+        // array'deki her bir elemani index degeri kadar artiralim.
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i =0; i < arr.length; i++) {
             arr[i]+=i;
         }
         System.out.println(Arrays.toString(arr));    //  [0, 1, 2, 3, 4, 5]

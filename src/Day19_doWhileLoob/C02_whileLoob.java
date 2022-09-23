@@ -3,8 +3,8 @@ package Day19_doWhileLoob;
 public class C02_whileLoob {
     public static void main(String[] args) {
 
-        // ) Kullanicidan bir sayi alin ve
-        // bu sayinin rakamlari toplamini yazdirin
+          // Kullanicidan bir sayi alin ve
+        // bu sayinin rakamlari toplamini yazdirin.
 
         int input=16;
         int rakam = 0;
@@ -14,7 +14,6 @@ public class C02_whileLoob {
             rakam= input%10;
             rakamlarToplami+=rakam;
             input/=10;
-
         }
         System.out.println(rakamlarToplami);
     }

@@ -7,7 +7,7 @@ public class C04_TerstenSiralayipKaydetme{
 
 public static void main(String[]args){
 
-    // verilen bir arrayi buyukten kucuge siralayip bize donduren method olusturun
+    // verilen bir array'i buyukten kucuge siralayip bize donduren method olusturun.
 
     int arr[]= {3,5,6,1,9,45,25,4,9,0};
 
