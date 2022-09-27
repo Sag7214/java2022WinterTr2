@@ -5,16 +5,16 @@ public class C01_forEachLoop {
 
         int arr[]={2,4,6,8,11};
 
-        // elementleri for loop ile yazdiralim
+        // elementleri for loop ile yazdiralim.
 
         for (int i = 0; i <arr.length ; i++) {
             System.out.print(arr[i] + " ");
         }
 
-        System.out.println("");
+        System.out.println("");   // alt satira gecirmek icin bos yazdirma
 
         // bunu for-each loop ile yapacak olursak
-        // for-each loop'u calistirmak icin hedef bir collection vermeliyiz
+        // for-each loop'u calistirmak icin hedef bir collection vermeliyiz.
 
        for (int each : arr)
          {
@@ -22,7 +22,7 @@ public class C01_forEachLoop {
         }
         // avantaji : index, baslangic degeri, bitis degeri gibi detaylarlarla
         // ugrasmamiza gerek kalmadan colections'dan tum elementleri bize getirir
-        // dezavantaji : index'e bagli bir islem yapamayiz
+        // dezavantaji : index'e bagli bir islem yapamayiz.
 
     }
 }

@@ -6,8 +6,7 @@ import java.util.List;
 public class C06_ArraydenListOlusturma {
     public static void main(String[] args) {
 
-        // verilen bir array'i listeye cevirin
-
+        // verilen bir array'i listeye cevirin.
 
 
         String arr[]={"A" , "B" , "C"};
@@ -15,7 +14,7 @@ public class C06_ArraydenListOlusturma {
 
         // arrayden liste cevirdigimiz zaman yeni listin uzunlugunu degistiremeyiz
         // dolayisiyla yeni list ile add() , remove(), clear() gibi method'lar calistirmak
-        // istedigimizde Exception olusur
+        // istedigimizde Exception olusur.
 
         //arraydenList.add("J"); //UnsupportedOperationException(desteklenmeyen exception(istisna) orn:j yi ekleyemedik
 

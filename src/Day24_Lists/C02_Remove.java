@@ -59,6 +59,12 @@ public class C02_Remove {
 
         // [Aykut, Ilker]
 
+        isimler.remove(0); //
+
+        System.out.println(isimler);  // [Ilker]
+
+
+
     }
 
         }

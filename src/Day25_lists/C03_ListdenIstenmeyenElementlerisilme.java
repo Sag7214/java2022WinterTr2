@@ -8,8 +8,8 @@ import static Day25_lists.C02_Array.istenmeyenElementiSil;
 public class C03_ListdenIstenmeyenElementlerisilme  {
     public static void main(String[] args) {
 
-        // verilen bir array'den istenen elementi(kac tane varsa) silip, kalanlari
-        // yeni bir array olarak yazdiran bir method olusturun
+           // verilen bir array'den istenen elementi(kac tane varsa) silip, kalanlari
+             // yeni bir array olarak yazdiran bir method olusturun.
 
         int arr[]={3,4,2,3,5,7,3,8,5,2,4};
         int istenmeyenEleman=3;

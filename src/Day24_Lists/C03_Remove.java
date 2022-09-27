@@ -17,18 +17,18 @@ public class C03_Remove {
        // sayilar.remove(5); //IndexOutOfBoundsException
 
         /*
-        Sayilardan olusan bir list'te objeyi vererek element silme method'u calismaz
-        sayi degeri girdigimizde Java otomatik olarak sayiyi index kabul eder
+        Sayilardan olusan bir list'te objeyi vererek element silme method'u calismaz.
+        sayi degeri girdigimizde Java otomatik olarak sayiyi index kabul eder.
          */
 
-       // int sayi=5;
-        // sayilar.remove(sayi);  ////IndexOutOfBoundsException
+         // int sayi=5;
+          // sayilar.remove(sayi);    ////IndexOutOfBoundsException
 
-        Integer sayi=5;   // Integer wrapper class i kullaninca sayi obje oldugundan bu method calisti
+        Integer sayi=5; // Integer wrapper class i kullaninca sayi obje oldugundan bu method calisti.
         sayilar.remove(sayi);
-        System.out.println(sayilar);  //  [7, 7]
+        System.out.println(sayilar);  //[7, 7]
 
-        // sayilar.remove(Integer.valueOf("5"));  [7, 7]   boyle de olurmus fakat gerek yok
+        // sayilar.remove(Integer.valueOf("5"));  [7, 7]   boyle de olurmus fakat gerek yok.
 
 
         }

@@ -26,6 +26,7 @@ public class C01_Contains {
 
         karakterler.add("F");
         System.out.println(harfler.containsAll(karakterler));   // false
+     // bir listenin tammamini sormak icin containsAll kullanilir bunun icin iki liste olmasi lazim
 
 
 

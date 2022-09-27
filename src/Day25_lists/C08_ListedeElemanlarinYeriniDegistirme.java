@@ -34,7 +34,6 @@ public class C08_ListedeElemanlarinYeriniDegistirme {
       // indexleri kontrol edip sinirin otesinde index verildiyse uyari mesaji yazdirin
 
         return sayilar;
-
          */
 
 

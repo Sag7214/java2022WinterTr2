@@ -6,14 +6,12 @@ import java.util.List;
 public class C04_ListedenTekrarliElementleriSilme {
     public static void main(String[] args) {
 
-
         // verilen bir listede tekrar eden sayilari sadece 1 kere yazdiran
-        // bir method olusturun
+        // bir method olusturun.
         // orn : [1, 3, 5, 3, 5, 6, 1, 7]
         // output [1, 3, 5, 6, 7]
 
         List<Integer> sayilar = new ArrayList<>();
-
         sayilar.add(1);
         sayilar.add(3);
         sayilar.add(5);

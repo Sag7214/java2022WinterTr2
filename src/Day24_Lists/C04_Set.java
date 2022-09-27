@@ -27,5 +27,24 @@ public class C04_Set {
 
 
 
+
+
+        List<String> meyve = new ArrayList<>();    // ben yaptim calisma
+        meyve.add("elma");
+        meyve.add("armut");
+        System.out.println(meyve);//[elma, armut]
+
+        meyve.set(0,"uzum");
+        System.out.println(meyve);//[uzum, armut]
+
+        List<String> logListesi2 = new ArrayList<>();
+
+       logListesi2.add(meyve.set(1,"nar"));  // degistilen elemani listede tutmak icin log kullanilir log=kutuk
+        System.out.println(meyve);
+        System.out.println(logListesi2);
+
+
+
+
     }
 }

@@ -17,10 +17,6 @@ public class C02_Array {
         istenmeyenElementiSil(arr, istenmeyenEleman);
     }
 
-
-
-
-
     public static void istenmeyenElementiSil(int[] arr, int istenmeyenEleman) {
 
         //1- istenmeyen element sayisini bulalim
@@ -51,4 +47,4 @@ public class C02_Array {
         System.out.println(Arrays.toString(arrYeni));
     }
 }
-
+// bu zor oldugu icin ayni soru list le yapilacak sonraki sayfada

@@ -6,7 +6,7 @@ import java.util.List;
 public class C07_List {
     public static void main(String[] args) {
 
-        // bir listede ortalamanin ustunde olan element sayisini bulunuz
+        // bir listede ortalamanin ustunde olan element sayisini  bulunuz.
 
         List<Double> sayilar = new ArrayList<>();
 
@@ -19,7 +19,7 @@ public class C07_List {
         sayilar.add(1.0);
         sayilar.add(7.0);
 
-        // ortalamayi bul
+        // ortalamayi bul.
 
 
         double ortalama = 0.0;
@@ -29,6 +29,7 @@ public class C07_List {
             toplam += sayilar.get(i);
 
         }
+
         ortalama = toplam / sayilar.size();
         System.out.println(ortalama);     //  3.875
 
@@ -38,11 +39,25 @@ public class C07_List {
 
         for (int i = 0; i < sayilar.size(); i++) {
             if (sayilar.get(i) > ortalama) {
-                ortalamaninustundekiler.add(sayilar.get(i));   //  [5.0, 5.0, 6.0, 7.0]
+                ortalamaninustundekiler.add(sayilar.get(i));     // [5.0, 5.0, 6.0, 7.0]
 
             }
-        }
-        System.out.println(ortalamaninustundekiler);
+            }
 
+
+        // bunu ben ekledim olmuyor sonra bakilabailir
+            System.out.println(ortalamaninustundekiler);
+
+            List<Double> ortalamaninAltindakiler = new ArrayList<>();
+
+            for (int i = 0; i > sayilar.size(); i++) {
+                if (sayilar.get(i) < ortalama) {
+                    ortalamaninAltindakiler.add(sayilar.get(i));     //
+
+                }
+            }
+            System.out.println(ortalamaninAltindakiler);
+
+        }
     }
-}
+

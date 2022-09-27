@@ -22,7 +22,7 @@ public class C03_ForeachLoop {
             for (String each2:array2) {
 
                 if (each1.equals(each2)){
-                    ortakElemanlar.add(each2);
+                    ortakElemanlar.add(each2);  // each1 de yazilabilir farketmez
 
                 }
             }

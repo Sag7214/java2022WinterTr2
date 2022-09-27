@@ -8,14 +8,19 @@ public class C05_getIndex {
 
         List<Integer> sayilarList= new ArrayList<>();
 
-        sayilarList.add(5); // [5]
-        sayilarList.add(3); // [5, 3]
-        sayilarList.add(0,7); // [7, 5, 3]
-        sayilarList.add(2,7); // [7, 5, 7, 3]
+        sayilarList.add(5);   // [5]
+        sayilarList.add(8);    // [5, 8]
+        sayilarList.add(0,7);    // [7, 5, 8]
+        sayilarList.add(2,7);    // [7, 5, 7, 8]
 
-        System.out.println(sayilarList.get(2));  //  7
+        System.out.println(sayilarList.get(2));    //  7
+        System.out.println(sayilarList);    // [7, 5, 7, 8]
 
-        System.out.println(sayilarList);  //   [7, 5, 7, 3]
+        //ben ekledim
+        System.out.println(sayilarList.get(3));  // 8
+        System.out.println(sayilarList);// [7, 5, 7, 8]
+
+
 
 
 
