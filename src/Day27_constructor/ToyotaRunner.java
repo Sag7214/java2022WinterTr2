@@ -17,8 +17,8 @@ public class ToyotaRunner {
         t1.maxHiz();
 
         Toyota t2=new Toyota();
-        System.out.println(t2.model); // null
-        System.out.println(t2.marca); // toyota
+        System.out.println(t2.model);   // null
+        System.out.println(t2.marca);   // toyota
 
         t2.model= "yaris";
         t2.yakit="benzin";

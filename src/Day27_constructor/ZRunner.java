@@ -10,5 +10,6 @@ public class ZRunner {
         System.out.println(obj2); // Isim : Emre, Soysim : Dh, numara : 55
 
         Z obj3=new Z("Ali","Can",50);
+        System.out.println(obj3);
     }
 }

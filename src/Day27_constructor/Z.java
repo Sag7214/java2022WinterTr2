@@ -15,7 +15,7 @@ public class Z {
     }
 
     public Z(String isim, String soyisim, int numara) {
-        this.isim = isim;
+        this.isim = isim;  // ayni ismi verirsek basina this yazmak zorundayiz
         this.soyisim = soyisim;
         this.numara = numara;
     }

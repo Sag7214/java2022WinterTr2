@@ -37,6 +37,7 @@ public class Volvo {
         }
         return sonuc;
     }
+
     public String toString(){
 
         String arabaOzellikleri= "Model : " + model +
@@ -44,6 +45,7 @@ public class Volvo {
                 " Max Hiz : " +maxHiz;
 
         return arabaOzellikleri;
+
     }
     }
 
