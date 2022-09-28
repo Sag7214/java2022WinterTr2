@@ -6,11 +6,10 @@ public class C06_PassByValue {
     public static void main(String[] args) {
 
         /* non primitive data turlerinde  objenin kendisi degil de
-           icindeki elementler degisirse
-           Java objenin referansi ve objen´in KENDISI degismedigi icin
+           icindeki elementler degisirse,
+           Java objenin referansi ve obje´in KENDISI degismedigi icin,
            element degisikliklerini kabul eder ve kalici yapar.
          */
-
 
         int arr[]={1,2,3};
         System.out.println(Arrays.toString(arr)); // [1, 2, 3]

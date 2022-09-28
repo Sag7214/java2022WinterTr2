@@ -3,8 +3,9 @@ package Day30_passByValue;
 public class C04_passByValue {
 
     // eger bir method'da yapilan degisikligin kalici olmasini istiyorsak
-    // iki yontem kullanabiliriz
-    // 1- variable'i class level'da static olarak olusturabilirim
+    // iki yontem kullanabiliriz.
+    // 1- variable'i class level'da static olarak olusturabilirim.
+
     static double etiketFiyati;
     static double indirimYuzdesi;
 

@@ -10,6 +10,8 @@ public class C02_StaticKeyword {
         System.out.println(C1_Static.okulTelefonu); // 3122563635
         C1_Static.okulTelefonu="3125474747";
         System.out.println(C1_Static.okulTelefonu); // 3125474747
+        C1_Static.okulTelefonu="123";
+        System.out.println(C1_Static.okulTelefonu);  // 123
 
 
         // Baska class'daki static olamayan class uyelerine
@@ -21,6 +23,7 @@ public class C02_StaticKeyword {
 
         System.out.println(obj2.okulIsmi); // Yildiz koleji
         obj2.okulIsmi="Sabir koleji";
+        System.out.println(obj2.okulIsmi); // Sabir koleji
         System.out.println(obj1.okulIsmi); // Yildiz koleji
 
         C1_Static.staticMethod();

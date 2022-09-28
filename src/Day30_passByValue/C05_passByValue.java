@@ -2,7 +2,7 @@ package Day30_passByValue;
 
 public class C05_passByValue {
 
-    // Kalici indirim icin ikinci yontem
+       // Kalici indirim icin ikinci yontem.
 
     public static void main(String[] args) {
 
