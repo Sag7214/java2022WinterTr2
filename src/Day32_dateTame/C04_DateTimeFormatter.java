@@ -9,18 +9,20 @@ public class C04_DateTimeFormatter {
 
         LocalDateTime tarihSaat = LocalDateTime.now();
         System.out.println(tarihSaat);     // 2022-04-02T11:42:04.481587400
-        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("dd/M/YYY");
+
+        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("dd/MMM/YYYY");
         System.out.println(formatter.format(tarihSaat));   //  02/4/2022
 
         DateTimeFormatter formatterSaat=DateTimeFormatter.ofPattern("hh : mm : ss a");
         System.out.println(formatterSaat.format(tarihSaat));  //  11 : 55 : 05 AM
+
 
         /*
          format olustururken
          GUN
          d : basta 0 varsa onu yazmadan gun numarasi
          dd: tek haneli gunleri 01 gibi basina sifir yazarak gun numarasi
-         DDD : yilin kacinci gunu oldugunu yazar
+         DDD : yilin kacinci gunu oldugunu yazar.
          E, EE, EEE : gun isminin ilk 3 harfi
          EEEE : gun isminin tamamini
          AY (Ay icin M, dakika icin m kullanilir)
@@ -37,7 +39,7 @@ public class C04_DateTimeFormatter {
          h : 12 saat dilimine gore tek rakam olanlari tek olarak
          m : minute tek rakamlari tek
          mm: tek rakamlari 08 gibi
-         a yazarsak AM veya PM degerini yazar
+         a yazarsak AM veya PM degerini yazar.
          */
 
 

@@ -10,22 +10,17 @@ public class C02_Equals {
 
         if (a == "2cfalse") ;{
             System.out.println("==");
-
         }
         if (a.equals("2cfalse")) {
             System.out.println("equals");
-
         }
 
         String b = "2c false";
-
         if (b == "2cfalse") ;{
             System.out.println("==");
-
             }
             if (b.equals("2cfalse")) {
                 System.out.println("equals");
-
             }
         }
     }

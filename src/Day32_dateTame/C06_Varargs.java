@@ -3,13 +3,14 @@ package Day32_dateTame;
 public class C06_Varargs {
     public static void main(String[] args) {
 
-       // verilen iki sayiyi toplayan bir method olusturun
+       // verilen iki sayiyi toplayan bir method olusturun.
         int sayi1=10;
         int sayi2=20;
         int sayi3=30;
         int sayi4=40;
         int sayi5=50;
-        // bir de 3 sayiyi toplayan method olusturalim
+
+        // bir de 3 sayiyi toplayan method olusturalim.
         toplaGel();  // 0
         toplaGel(sayi1); // 10
         toplaGel(sayi1,sayi2); //30
