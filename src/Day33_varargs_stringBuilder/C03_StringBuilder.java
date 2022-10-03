@@ -18,7 +18,7 @@ public class C03_StringBuilder {
         System.out.println("sb3 capacity : " + sb3.capacity()); // 10
 
 
-        // append method'u ile sb'a ekleme yapabiliriz
+        // append method'u ile sb'a ekleme yapabiliriz.
 
         sb1.append("Java").append(" ").append("cok").append(" ").append("guzel");
         System.out.println("sb1 length : "+ sb1.length()); // 14
@@ -29,7 +29,7 @@ public class C03_StringBuilder {
 
 
         sb1.append(true);
-        System.out.println(sb1); // Java cok guzel3true
+        System.out.println(sb1);    // Java cok guzel3true
         System.out.println("sb1 length : "+ sb1.length()); // 19
         System.out.println("sb1 capacity : " + sb1.capacity()); // 34
 

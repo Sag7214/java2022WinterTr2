@@ -5,6 +5,7 @@ public class C04_StringBuilder {
     public static void main(String[] args) {
 
         StringBuilder sb1= new StringBuilder("Yasasin Java");
+
         System.out.println(sb1.indexOf("Java")); // 8
 
         System.out.println(sb1.lastIndexOf("s")); // 4
