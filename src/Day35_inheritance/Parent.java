@@ -8,6 +8,7 @@ public class Parent {
 
     public static void method1() {
         System.out.println("method1");
+
     }
 
     protected static void method2() {

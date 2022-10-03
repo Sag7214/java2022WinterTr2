@@ -1,9 +1,8 @@
 package Day36_inheritance;
 
 public class SurekliIsciler extends Isci {
-
-
     public static void main(String[] args) {
+
         SurekliIsciler surIc1=new SurekliIsciler();
         surIc1.persNo=5001;
         surIc1.isim="Cem";

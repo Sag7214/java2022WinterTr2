@@ -12,6 +12,8 @@ public class Ustabasi extends Isci{
             ustabasi1.isciStatu="Ustabasi";
             System.out.println(ustabasi1);
         }
+
+
         @Override
         public String toString() {
             return "Ustabasi{" +

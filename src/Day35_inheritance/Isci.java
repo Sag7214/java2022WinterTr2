@@ -9,6 +9,7 @@ package Day35_inheritance;
             objPers.soyisim = "Terzioglu";
             objPers.adres = "Amsterdam";
 
+
             Isci objIsci = new Isci();
             objIsci.isim = "Huseyin";
             objIsci.soyisim = "Efe";
