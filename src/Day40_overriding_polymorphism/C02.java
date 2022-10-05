@@ -21,14 +21,16 @@ public class C02 extends C01 {
     public void method2() {
         /*
             @Override notasyonu overridden method ile overriding method'u
-            birbirine baglar
+            birbirine baglar.
             Farkinda olunmadan overriden method silinirse veya signature degistirilirse
-            bu iliski bozulacagi icin Java CTE verir
+            bu iliski bozulacagi icin Java CTE verir.
             Notosyon kullanilmazsa Java bunlari iliskisini bilir ama
-            overridden method silinirse sesini cikarmaz
+            overridden method silinirse sesini cikarmaz.
          */
+
         System.out.println("Child method2");
     }
+
 
     public static void main(String[] args) {
         C02 obj = new C02();

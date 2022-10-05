@@ -6,12 +6,10 @@ import java.util.Scanner;
 public class C05_Exceptions {
     public static void main(String[] args) {
 
+            // Kullanicidan istedigi kadar sayiyi alip toplayan bir program yaziniz.
+              // toplam 500'u gecerse programi bitirsin veya
+                // kullanici bitirmek istediginde Q'ya basmalidir.
 
-
-
-            // Kullanicidan istedigi kadar sayiyi alip toplayan bir program yaziniz
-            // toplam 500'u gecerse programi bitirsin veya
-            // kullanici bitirmek istediginde Q'ya basmalidir
             Scanner scan = new Scanner(System.in);
             int toplam = 0;
             do {

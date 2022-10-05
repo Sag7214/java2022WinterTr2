@@ -18,11 +18,11 @@ public class Ustabasi extends Isci {
         /*
           Icinde oldugumuz Class'dan klasik haliyle bir obje olusturursak
           o obje ile cagirdigimiz variable ve method'larda
-          Java once icinde bulundugumuz class'a bakar
+          Java once icinde bulundugumuz class'a bakar.
           aradigimiz class uyesi, icinde oldugumuz class'da varsa
-          bize onu getirir
+          bize onu getirir.
           YOKSA,
-          parent class(lar)a bakar, ilk buldugunu getirir
+          parent class(lar)a bakar, ilk buldugunu getirir.
          */
         Ustabasi yasin = new Ustabasi();
         System.out.println(yasin.statu); // Ustabasi

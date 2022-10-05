@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class C03_Exceptions {
 
     public static void main(String[] args) {
-        // Kullanicidan iki sayi alip, bolerek
-        // soonucu yazdiran bir program yaziniz
+        // Kullanicidan iki sayi alip,bolerek
+        // soonucu yazdiran bir program yaziniz.
         Scanner scan = new Scanner(System.in);
         int kontrol = 0;
         while (kontrol != 2) {
@@ -25,19 +25,19 @@ public class C03_Exceptions {
         }
         /*
         Sayi2 0 oldugunda sayi1 / 0 tanimsiz olacagindan
-        Java bu durumla karsilasinca exception verir
+        Java bu durumla karsilasinca exception verir.
         Javanin yazdigi mesajda exception ne tur bir sorun oldugu
         Neden kaynaklandigi
-        ve hangi satirda olustugu yazar
+        ve hangi satirda olustugu yazar.
         Exception in thread "main" java.lang.ArithmeticException: / by zero
         at day40_overriding_polymorphism.C03_Exepcitions.main(C03_Exepcitions.java:18)
-        bunu cozmek icin sayi2'yi if ile kontrol edebiliriz
+        bunu cozmek icin sayi2'yi if ile kontrol edebiliriz.
         if (sayi2==0){
             System.out.println("Sayi / 0 tanimsizdir");
         } else {
             System.out.println("sonuc = " + sayi1 / sayi2);
         }
-         Ama bu yontem her sorunda calismaz
+         Ama bu yontem her sorunda calismaz.
          */
     }
 }

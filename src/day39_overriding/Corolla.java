@@ -23,13 +23,13 @@ public class Corolla extends Toyota {
         /*
         Data turu ve constructor farkli oldugunda
         Constructor calistigi icin obje
-        Constructor'in oldugu class ozelliklerini tasir
+        Constructor'in oldugu class ozelliklerini tasir.
         ancak Data turu Parent class secildigi icin
         variable'lar data turunun secildigi class ve
         onun parent class'larindan deger alabilir
         Method'lar icin ise yine Data turunun oldugu class'a gideriz
         ancak direk method'u calistirmadan once
-        method Override edilmis mi diye kontrol ederiz
+        method Override edilmis mi diye kontrol ederiz.
          */
         Corolla arb1 = new Corolla();
         System.out.println(arb1.hareket); // araba
@@ -39,6 +39,7 @@ public class Corolla extends Toyota {
         System.out.println(arb1.sirketMerkezi); // Toyota
         System.out.println(arb1.model); //Corolla
         arb1.motor(); // Corolla
+
         Toyota arb2 = new Corolla();
         System.out.println(arb2.hareket); // araba
         System.out.println(arb2.hiz); // Toyota
@@ -47,6 +48,7 @@ public class Corolla extends Toyota {
         System.out.println(arb2.sirketMerkezi); // Toyota
         // System.out.println(arb2.model); //CTE
         arb2.motor(); //
+
         Araba arb3 = new Corolla();
         System.out.println(arb3.hareket); // Araba
         System.out.println(arb3.hiz); // Araba
