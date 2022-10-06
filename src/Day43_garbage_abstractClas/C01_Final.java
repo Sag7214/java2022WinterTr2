@@ -9,7 +9,7 @@ public class C01_Final {
 
         final int sayi = 10;
 
-        // okulIsmi="Java Koleji";  final olarak isaretlendigi icin degistirilemez
+        // okulIsmi="Java Koleji";  final olarak isaretlendigi icin degistirilemez.
     }
 
     public final static void method1() {

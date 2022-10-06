@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class C01_FileInputStream {
     public static void main(String[] args) {
+
         String dosyaYolu="src/day41_exceptions/dosya";
         try {
             FileInputStream fis=new FileInputStream(dosyaYolu);
@@ -18,18 +19,17 @@ public class C01_FileInputStream {
         }  catch (IOException e) { // IOException
             e.printStackTrace();
         }
+
         /*
-        Exception'lar icin de parent child iliskisi mevcuttur
+        Exception'lar icin de parent child iliskisi mevcuttur.
         Eger bir kod icin birden fazla exeption olusma ihtimali varsa
-        Oncelikle olasi exception'lar parent-child iliskisi tasiyor mu bakmamiz gerekir
-        Eger parent child iliskisi yoksa, istedigimiz sirada catch cumleleri olusturabiliriz
-        Eger Parent child iliskisi varsa
-        sadece parent exception'i yazabiliriz
-        veya ikisini de yazmak istersek
-        child'i once parent'i sonra yazmaliyiz
+        Oncelikle olasi exception'lar parent-child iliskisi tasiyor mu bakmamiz gerekir.
+        Eger parent child iliskisi yoksa, istedigimiz sirada catch cumleleri olusturabiliriz.
+        Eger Parent child iliskisi varsa  sadece parent exception'i yazabiliriz.
+        veya ikisini de yazmak istersek  child'i once parent'i sonra yazmaliyiz.
          */
         /*
-        Alti kirmizi cizili her kod CTE degildir
+                Alti kirmizi cizili her kod CTE degildir
         Java syntax hatalarini derleme esnasinda (compile) farkeder ve altini cizer
         biz bu gune kadar tamamina CTE diyorduk ancak
         exception konusu ile birlikte
