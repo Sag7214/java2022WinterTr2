@@ -9,14 +9,16 @@ public class MapOlustur {
 
         Map<Integer, String> sinifList = new HashMap<>();
 
-        sinifList.put(101,"Ali, Can, Dev, 1453");
-        sinifList.put(102,"Veli, Yan, QA, 1990");
-        sinifList.put(103,"Ali, Yan, C#, 2000");
-        sinifList.put(104,"Adil, Gul, C#, 2001");
-        sinifList.put(105,"Ahmet, Yav, C#, 2002");
+        sinifList.put(101,"  Ali,   Can,   Dev,  1453");
 
+        sinifList.put(102,"  Veli,  Yan,   QA,   1990");
+
+        sinifList.put(103,"  Ali,   Yan,   C#,   2000");
+
+        sinifList.put(104,"  Adil,  Gul,   C#,   2001");
+
+        sinifList.put(105,"  Ahmet, Yav,   C#,   2002");
 
         return sinifList;
     }
-
 }

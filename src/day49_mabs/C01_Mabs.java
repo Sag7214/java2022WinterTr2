@@ -6,8 +6,9 @@ public class C01_Mabs {
     public static void main(String[] args) {
 
         // Java'da collection uyesi bir yapida
-        // data turu Object secilirse, her data turunden deger ekleyebiliriz
-        // ancak bu durumda surekli casting problemleri ile karsilasabiliriz
+        // data turu Object secilirse, her data turunden deger ekleyebiliriz.
+        // ancak bu durumda surekli casting problemleri ile karsilasabiliriz.
+
         List<Object> list=new ArrayList<>();
         list.add("Ergin");
         list.add(15);
@@ -16,9 +17,9 @@ public class C01_Mabs {
         list.set(1,(Integer)(list.get(1))+10);
 
         Map<Integer,String> sinifList= new HashMap<>();
-        // bir sinifta ogrenci no ve isim, soyisim, brans olarak map olusturmak istiyoruz
-        // key tek bir unique degerdir
-        // ama value/deger birden fazla bilginin birlesiminden olusabilir
+        // bir sinifta ogrenci no ve isim, soyisim, brans olarak map olusturmak istiyoruz.
+        // key tek bir unique degerdir.
+        // ama value/deger birden fazla bilginin birlesiminden olusabilir.
         // bu durumda daha sonra istedigimiz bilgilere dogru sekilde ulasabilmek icin
         // tum elemntler icin value ayni bicimde olusturulmalidir(veri siralamasi ve sekilsel acidan)
 
@@ -26,17 +27,10 @@ public class C01_Mabs {
         sinifList.put(102, "-Veli, Yan, QA");
         sinifList.put(103, "-Ali, Yan, Dev");
 
-        System.out.println(sinifList);   // {101=Ali, Can, Dev, 102=Veli, Yan, QA, 103=Ali, Yan, Dev}
+        System.out.println(sinifList);// {101=Ali, Can, Dev, 102=Veli, Yan, QA, 103=Ali, Yan, Dev}
 
-        System.out.println(sinifList.keySet());  // [101, 102, 103]
+        System.out.println(sinifList.keySet()); // [101, 102, 103]
 
-        System.out.println(sinifList.values());    //  [Ali, Can, Dev, Veli, Yan, QA, Ali, Yan, Dev]
-
-
-
-
-
-
-
+        System.out.println(sinifList.values()); //[Ali, Can, Dev, Veli, Yan, QA, Ali, Yan, Dev]
     }
 }

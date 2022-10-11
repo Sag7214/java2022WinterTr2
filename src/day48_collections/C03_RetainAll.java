@@ -10,6 +10,7 @@ public class C03_RetainAll {
 
             Set<Integer> set1 = new HashSet<>();
             Set<Integer> set2 = new HashSet<>();
+            Set<Integer>set3=new HashSet<>();  // ben yazdim calisma
             set1.add(10);
             set1.add(20);
 
