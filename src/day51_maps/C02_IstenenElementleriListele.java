@@ -3,6 +3,7 @@ package day51_maps;
 import day49_mabs.MapOlustur;
 import java.util.*;
 public class C02_IstenenElementleriListele {
+
     /*
     Soru 2 ) Verilen map’te istenen programlama dilini bilen kisileri
     list olarak donduren bir method yaziniz.
@@ -34,6 +35,7 @@ public class C02_IstenenElementleriListele {
             }
         }
         System.out.println(Arrays.deepToString(valueMDArr));
+
         for (int i = 0; i < outerArrayBoyut; i++) {
             if (valueMDArr[i][2].equals(istenenDil)) {
                 istenenDiliBilenlerListesi.add(valueMDArr[i][0]);

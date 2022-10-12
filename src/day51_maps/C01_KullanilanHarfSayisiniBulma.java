@@ -7,14 +7,14 @@ import java.util.Map;
 
 public class C01_KullanilanHarfSayisiniBulma {
     public static void main(String[] args) {
-        //  Soru 1 ) Verilen bir String’deki harfleri ve harflerin kacar kez kullanildigini return eden bir method yaziniz
-        // Ornek : Input : Hellooo   output : H=1, e=1, l=2, o=3
+                     //  Soru 1 ) Verilen bir String’deki harfleri ve harflerin
+                   //  kacar kez kullanildigini return eden bir method yaziniz.
+              // Ornek : Input : Hellooo   output : H=1, e=1, l=2, o=3
 
         String input ="Heelllooooooooo";
         String harflerArr[]=input.split("");
 
         Map<String,Integer> kullanimSayilari= new HashMap<>();
-
 
         for (String each:harflerArr
              ) {
@@ -23,13 +23,8 @@ public class C01_KullanilanHarfSayisiniBulma {
 
             } else{
                 kullanimSayilari.put(each,1);
-
             }
-
         }
         System.out.println(kullanimSayilari);
-
     }
-
-
 }

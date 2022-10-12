@@ -12,7 +12,7 @@ public class C01_Maps {
         Map<Integer, String> sinifListMap = MapOlustur.myMap();
         System.out.println(sinifListMap);  // {101=Ali, Can, Dev, 102=Veli, Yan, QA, 103=Ali, Yan, C#}
 
-        /* Eger key'lere tek tek ulasmak istersek
+        /* Eger key'lere tek tek ulasmak istersek,
            index yapisina ihtiyacimiz var.
            ancak map index yapisini desteklemez.
            bunun icin key'leri once bir set'e
@@ -39,7 +39,7 @@ public class C01_Maps {
         int outerArrayBoyut = sinifValueList.size();
         System.out.println(outerArrayBoyut);
 
-        // inner array' larin boyutunu bulmak biraz daha kompleks olacak
+        // inner array' larin boyutunu bulmak biraz daha kompleks olacak.
         String ilkValue = sinifValueList.get(0);
         System.out.println(ilkValue);
         String ilkValueArray[] = ilkValue.split(", ");
@@ -56,12 +56,11 @@ public class C01_Maps {
 
             }
         }
-
         System.out.println(Arrays.deepToString(valueMDArr));
 
-        // bu satira kadar key'leri index ile ulasabildigim keyList' e atadim
-        // value'leri valueMDArr'e atadim
-        // simdi bu key ve value'leri istedigim gibi manuple edebilirim
+            // bu satira kadar key'leri index ile ulasabildigim keyList' e atadim
+           // value'leri valueMDArr'e atadim.
+         // simdi bu key ve value'leri istedigim gibi manuple edebilirim.
 
         System.out.println("Numara  Isim   Soyisim  Brans  D.Tarihi");
         System.out.println("=======================================");

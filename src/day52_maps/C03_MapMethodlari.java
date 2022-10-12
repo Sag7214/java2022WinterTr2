@@ -11,8 +11,8 @@ public class C03_MapMethodlari {
         myMap.put("H",3);
         myMap.putIfAbsent("K",5);
 
-        // bir ekleme yapmak istedigimizde Key daha once eklenmemisse map'e eklesin
-        // daha onceden eklenmisse , eskiyi silmemek icin bizi uyarsin
+        // bir ekleme yapmak istedigimizde Key daha once eklenmemisse map'e eklesin.
+        // daha onceden eklenmisse , eskiyi silmemek icin bizi uyarsin.
 
         System.out.println(myMap.putIfAbsent("A",6));
         if (myMap.putIfAbsent("K", 20) != null){
@@ -26,7 +26,7 @@ public class C03_MapMethodlari {
         myMap.compute("A" , (key,value) -> 20);
         System.out.println(myMap);
 
-        // H'nin degerini 2 katinin 5 fazlasi yapalim
+        // H'nin  degerini  2 katinin  5  fazlasi  yapalim.
         myMap.compute("H", (k,v) ->(2*v+5));
         System.out.println(myMap);
     }

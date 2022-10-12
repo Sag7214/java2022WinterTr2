@@ -7,9 +7,16 @@ import java.util.Set;
 
 public class C02_Uptade {
 
-        // Verilen map'deki tum branslari Java yapalim
+        // Verilen map'deki tum branslari Java yapalim.
+        /*
+            map te value kompleks olabildigi icin value icerisinden
+            bir bolumu degistirmek istersek once value ye ulasmak
+            sonra onu manupule ederek istedigimiz degisikleri yapmak
+            ve en son degismis halini yeniden map e eklemek gerekir
+          */
 
         public static void main(String[] args) {
+
             Map<Integer,String> sinifListMap= MapOlustur.myMap();
             System.out.println(sinifListMap);
 
